@@ -1,0 +1,47 @@
+*{
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+*, *::before, *::after{box-sizing:border-box;}
+body{
+	margin-left:4%;
+}
+div.cont{
+	display:block;
+	width:40vw;
+	margin:0 auto;
+} 
+
+div.LRdiv{
+	background-color:black;
+	margin:1rem;
+	position: static;
+}
+h2{
+	text-align:center;
+	color:white;
+	visibility:hidden;
+}
+p.LRp{
+	color:white;
+}
+li{
+	display:list-item;
+}
+a{ 
+	text-decoration:none;
+	display:block;
+}
+section:hover{
+	color: green;
+	h1{
+		visibility:hidden;};
+}
+div.cont:active h2{
+	visibility:visible;
+}
+ul {
+  list-style-type: square;
+}
